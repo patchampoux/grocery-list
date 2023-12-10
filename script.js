@@ -1,5 +1,5 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js';
-import { getDatabase, ref, push, remove, onValue, onChildAdded, onChildRemoved } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js';
+import { getDatabase, ref, push, remove, onChildAdded, onChildRemoved } from 'https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js';
 
 class GroceryList {
     constructor() {
